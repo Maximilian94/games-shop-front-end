@@ -1,0 +1,24 @@
+.checkout-product {
+  display: flex;
+  justify-content: space-around;
+  width: 80vh;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.favorite-trash {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shipping-free {
+  text-decoration: line-through;
+}
+
+.shipping-free:after {
+  display: inline-block;
+  content: " - Frete grátis!!";
+  text-decoration: dashed;
+  color: red;
+}

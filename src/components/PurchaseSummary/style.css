@@ -1,0 +1,13 @@
+.purchase-summary {
+  position: sticky;
+  top: 10px;
+  background-color: white;
+  padding: 10px 50px;
+  border-radius: 8px;
+  height: 250px;
+}
+
+.purchase-summary .line {
+  display: flex;
+  justify-content: space-between;
+}

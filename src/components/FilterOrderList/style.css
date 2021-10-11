@@ -1,0 +1,23 @@
+.filter-order-products {
+  display: flex;
+  align-items: center;
+}
+
+.filter-order-products > button {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  height: 30px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.filter-order-products img {
+  height: 20px;
+}
+
+.filter-order-products .active, .filter-order-products .active button {
+  color: red;
+  background-color: #ADADAD;
+}

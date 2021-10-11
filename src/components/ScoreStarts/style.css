@@ -1,0 +1,15 @@
+.score-starts {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.score-starts p {
+  margin: 0 10px;
+  line-height: 18px;
+}
+
+.score-starts img {
+  height: 18px;
+  margin: 0 1.5px;
+}

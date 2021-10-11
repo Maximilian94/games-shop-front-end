@@ -1,0 +1,20 @@
+.header-cart-div button {
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  outline: none;
+}
+
+.header-cart-div img {
+  height: 50px;
+  filter:  brightness(0) invert(1);
+  cursor: pointer;
+}
+
+.header-cart-div img:hover {
+  filter: none;
+}
+
+.header-cart-div img:active {
+  transform: scale(0.9);
+}

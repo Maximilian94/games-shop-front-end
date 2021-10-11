@@ -1,0 +1,7 @@
+.price-range {
+  display: flex;
+}
+
+.price-range > input {
+  margin: 5px;
+}

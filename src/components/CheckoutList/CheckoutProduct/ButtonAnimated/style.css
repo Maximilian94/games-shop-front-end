@@ -1,0 +1,12 @@
+.animated-button {
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+}
+
+.animated-button img{
+  height: 30px;
+  transition: 0.2s;
+}

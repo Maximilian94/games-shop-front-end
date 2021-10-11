@@ -1,0 +1,19 @@
+.product-recommended {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.product-recommended:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.product-recommended img{
+  height: 100px;
+}

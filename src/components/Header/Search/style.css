@@ -1,0 +1,33 @@
+.div-header-search {
+  padding: 0 10px;
+  display: flex;
+}
+
+.header-search {
+  border: 3px solid #E96B00;
+  border-radius: 4px 0 0 4px;
+  padding: 11px;
+  width: 50vh;
+  outline: none;
+}
+
+.div-header-search > button {
+  background-color: #E96B00;
+  height: 50px;
+  border: 3px solid #E96B00;
+  border-radius: 0 4px 4px 0;
+  padding: 7px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.div-header-search > button:active, .div-header-search img {
+  transform: scale(0.8);
+}
+
+.div-header-search img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  transition: 0.2s;
+}
